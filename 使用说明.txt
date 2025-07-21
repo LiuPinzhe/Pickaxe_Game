@@ -1,0 +1,30 @@
+Unity一键设置游戏步骤：
+
+1. 打开Unity，创建新的3D项目
+
+2. 将Scripts文件夹拖入Unity的Assets中
+
+3. 在Hierarchy中创建空物体，命名为"GameSetup"
+
+4. 将GameSetup.cs脚本拖到这个空物体上
+
+5. 在Inspector面板中，右键点击GameSetup组件
+
+6. 选择"Setup Complete Game"
+
+7. 等待设置完成，会看到Debug信息"游戏设置完成！"
+
+8. 删除GameSetup物体（已经不需要了）
+
+9. 点击Play按钮开始游戏！
+
+游戏操作：
+- WASD或方向键移动角色
+- 走到灰色方块（石头）旁边自动挖矿
+- 获得金币后点击右下角蓝色按钮升级镐子
+- 升级后挖矿更快，获得更多金币
+
+注意：
+- 确保所有脚本都在Assets/Scripts文件夹中
+- 如果UI显示有问题，检查Canvas设置
+- 石头颜色会根据价值变化（灰色到黄色）
